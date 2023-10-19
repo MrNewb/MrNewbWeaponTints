@@ -12,6 +12,9 @@ Also thank you to the ox team for giving us this at all.
 customize consume to whatever you want
 
 
+Video of resource
+https://streamable.com/9smgpw
+
 
 ######### install guide
 Add these items to ox_inventory
