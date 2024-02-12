@@ -2,14 +2,8 @@
 
 Welcome to the readme :)
 
-This is Weapon Tints for ox_inventory
 
-Nobody has released it free and I wanted to help people so I am releasing this, dont be a jerk and sell it please. I encourage prs, sharing code and working with people.
-I do ask you dont rename it as its my first release in over a year, while small its got a good use.
-Also thank you to the ox team for giving us this at all.
-
-
-customize consume to whatever you want
+These are weapon tints/ serial removals for ox_inventory, and I've included an item for removing serial numbers. I've noticed they haven't been offered for free yet, so I'm releasing them to assist others. Please refrain from selling them out of respect. I advocate for collaboration, sharing code, and teamwork. I kindly request not to alter the name since this is my first release in over a year, despite its modest size, it serves a valuable purpose. Additionally, I want to express gratitude to the ox team for making this possible. Feel free to customize consumption according to your preferences.
 
 
 Video of resource
