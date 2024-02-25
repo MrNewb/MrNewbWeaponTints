@@ -117,7 +117,7 @@ I would like to express my gratitude to the Ox Inventory team for their contribu
 For support or further discussions about these resources, you can join my script Discord server [here](https://discord.gg/ZBKYxB6PzA). Feel free to ask questions, share ideas, or collaborate with other members of the community.
 
 Additionally, special thanks to Decay Studios for creating the inventory icons used in this release. You can find them on Discord [here](https://discord.gg/yDXZwZPjdN).
-[![Decay Studios](https://i.imgur.com/UXzU6Ys.png)]([https://example.com](https://i.imgur.com/UXzU6Ys.png))
+[![Decay Studios](https://i.imgur.com/HAAqKew.png)]([https://i.imgur.com/HAAqKew.png](https://i.imgur.com/HAAqKew.png))
 
 
 If you have any questions or feedback, please don't hesitate to reach out. Enjoy customizing your inventory experience with these resources!
