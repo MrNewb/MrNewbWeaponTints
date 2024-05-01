@@ -2,6 +2,8 @@
 
 In this repository, you'll find a collection of weapon tints and a handy item for removing serial numbers in Ox_Inventory. These resources are provided with the intention of aiding others in their projects. It's important to note that this resource is offered for free, and I request that you refrain from selling this as a sign of respect for the collaborative spirit of the community.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R76BIM9)
+
 ## Usage
 These weapon tints offer a customizable weapon tint system for in-game use, enhancing the visual experience of weapons. Additionally, the included "Heavy File" item allows for the removal of serial numbers from weapons. With these features, server owners can not only enrich gameplay but also potentially monetize their server through enhanced customization options.
 To integrate this resource into your project, follow these steps:
