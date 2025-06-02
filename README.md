@@ -131,7 +131,7 @@ Additionally, special thanks to Decay Studios for creating the inventory icons u
 
 
 ## Resource support
-- **Notes**: The bridge offers more compatability than I ever had before, this includes origin and the other named inventories in the community bridge.
+- **Notes**: The bridge offers more compatability than I ever had before, because of this and the locale support it has been moved from ox_lib to community_bridge.
 
 - **Discord**: My discord has evolved thanks to all of you, the link is
 https://discord.gg/mrnewbscripts
