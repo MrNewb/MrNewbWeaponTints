@@ -3,15 +3,22 @@ games { 'gta5' }
 
 name 'NewbTints'
 author 'MrNewb'
-description 'Working tints with ox_inventory metadata -- please dont rename this =( '
-
-shared_scripts {
-	'Config.lua',
-	'@ox_lib/init.lua'
-}
+version '0.0.2'
+description 'Working tints with ox_inventory metadata'
 
 server_scripts {
-    "server/*.lua"
+	'src/Config.lua',
+    "src/server/*.lua"
+}
+
+files {
+	'locales/*.json',
+}
+
+dependencies {
+    '/server:6116',
+    '/onesync',
+    'community_bridge',
 }
 
 lua54 'yes'

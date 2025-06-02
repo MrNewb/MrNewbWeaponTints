@@ -1,0 +1,10 @@
+{
+    "WeaponTints": {
+        "NotInHand": "您需要手持武器才能使用此物品",
+        "HasBeenApplied": "已应用到您的武器上",
+        "SerialRemoved": "序列号已被锉掉",
+        "MK2Detected": "检测到MK2武器 - 正在应用特殊涂装映射",
+        "TintApplied": "武器涂装应用成功",
+        "FileUsed": "重型锉刀已用于武器"
+    }
+}
