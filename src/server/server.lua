@@ -1,5 +1,5 @@
-Bridge = exports.community_bridge:Bridge()
 local ox_inventory = exports.ox_inventory
+local tintTable = { [0] = 0, [1] = 18, [2] = 23, [3] = 13, [4] = 8, [5] = 22, [6] = 15, [7] = 24 }
 
 function locale(message)
     return Bridge.Language.Locale(message)
@@ -11,16 +11,14 @@ local function checkForMK2(name)
 end
 
 local function simpleTintIndex(id)
-    local tintTable = { [0] = 0, [1] = 18, [2] = 23, [3] = 13, [4] = 8, [5] = 22, [6] = 15, [7] = 24 }
     return tintTable[id] or id
 end
 
 exports('setweapontint', function(event, item, inventory)
     local weapon = exports.ox_inventory:GetCurrentWeapon(inventory.id)
-    if not weapon then return end
-    checkForMK2(weapon.name)
+    if not weapon then return false, SendNotify(inventory.id, locale('WeaponTints.NotEquipped'), 'error', 5000) end
     if event == 'usingItem' and not weapon then
-        return false, Bridge.Notify.SendNotify(inventory.id, locale('WeaponTints.NotInHand'), 'error', 5000)
+        return false, SendNotify(inventory.id, locale('WeaponTints.NotEquipped'), 'error', 5000)
     end
     local assignedTint = item.server.tint
     local mk2 = checkForMK2(weapon.name)
@@ -29,25 +27,21 @@ exports('setweapontint', function(event, item, inventory)
         weapon.metadata.tint = assignedTint
         weapon.metadata.weapontint = item.label
         ox_inventory:SetMetadata(inventory.id, weapon.slot, weapon.metadata)
-        Bridge.Notify.SendNotify(inventory.id, item.label..' '..locale('WeaponTints.HasBeenApplied'), 'success', 5000)
+        SendNotify(inventory.id, string.format(locale('WeaponTints.HasBeenApplied'), item.label, weapon.label), 'success', 5000)
         TriggerClientEvent('ox_inventory:disarm', inventory.id, false)
     end
 end)
 
 exports('newbserialfile', function(event, item, inventory)
     local weapon = exports.ox_inventory:GetCurrentWeapon(inventory.id)
+    if not weapon then return false, SendNotify(inventory.id, locale('WeaponTints.NotEquipped'), 'error', 5000) end
     if event == 'usingItem' and not weapon then
-        return false, Bridge.Notify.SendNotify(inventory.id, locale('WeaponTints.NotInHand'), 'error', 5000)
+        return false, SendNotify(inventory.id, locale('WeaponTints.NotEquipped'), 'error', 5000)
     end
     if event == 'usedItem' then
-        weapon.metadata.serial = Config.scratchedserial
+        weapon.metadata.serial = locale("WeaponTints.SerialRemoved")
         ox_inventory:SetMetadata(inventory.id, weapon.slot, weapon.metadata)
-        Bridge.Notify.SendNotify(inventory.id, weapon.label ..' '..locale('WeaponTints.SerialRemoved'), 'success', 5000)
+        SendNotify(inventory.id, string.format(locale('WeaponTints.SerialRemovedSuccess'), weapon.label), 'success', 5000)
         TriggerClientEvent('ox_inventory:disarm', inventory.id, false)
     end
-end)
-
-AddEventHandler('onResourceStart', function(resource)
-    if resource ~= GetCurrentResourceName() then return end
-    Bridge.Version.VersionChecker('MrNewbScripts/MrNewbWeaponTints', false)
 end)

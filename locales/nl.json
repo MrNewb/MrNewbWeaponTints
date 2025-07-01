@@ -1,10 +1,8 @@
 {
     "WeaponTints": {
-        "NotInHand": "Je moet een wapen in je hand hebben om dit item te gebruiken",
-        "HasBeenApplied": "is toegepast op je wapen",
-        "SerialRemoved": "het serienummer is weggeslepen",
-        "MK2Detected": "MK2 wapen gedetecteerd - speciale tint mapping wordt toegepast",
-        "TintApplied": "Wapen tint succesvol toegepast",
-        "FileUsed": "De zware vijl is gebruikt op het wapen"
+        "NotEquipped": "Je moet een wapen in je hand hebben om dit item te gebruiken",
+        "HasBeenApplied": "De %s tint is toegepast op je %s",
+        "SerialRemoved": "Het serienummer is weggeslepen",
+        "SerialRemovedSuccess": "Het serienummer is succesvol weggeslepen van de %s"
     }
 }

@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Du måste ha ett vapen i handen för att använda detta föremål",
+        "HasBeenApplied": "%s färgen har applicerats på ditt %s",
+        "SerialRemoved": "Serienumret har filats bort",
+        "SerialRemovedSuccess": "Serienumret har framgångsrikt filats bort från %s"
+    }
+}

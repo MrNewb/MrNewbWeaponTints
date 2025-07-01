@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Jy moet 'n wapen in jou hand hê om hierdie item te gebruik",
+        "HasBeenApplied": "Die %s tint is op jou %s toegepas",
+        "SerialRemoved": "Die reeksnommer is afgeskuur",
+        "SerialRemovedSuccess": "Die reeksnommer is suksesvol afgeskuur van die %s"
+    }
+}

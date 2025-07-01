@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Trebuie să ai o armă în mână pentru a folosi acest obiect",
+        "HasBeenApplied": "Nuanța %s a fost aplicată pe %s-ul tău",
+        "SerialRemoved": "Numărul de serie a fost şters",
+        "SerialRemovedSuccess": "Numărul de serie a fost şters cu succes de pe %s"
+    }
+}

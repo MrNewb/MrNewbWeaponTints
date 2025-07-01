@@ -1,13 +1,17 @@
 fx_version 'cerulean'
 games { 'gta5' }
-
+lua54 'yes'
 name 'NewbTints'
 author 'MrNewb'
-version '0.0.2'
-description 'Working tints with ox_inventory metadata'
+version '0.1.0'
+description 'MrNewbs Weapon Tint System for Ox Inventory'
+
+shared_scripts {
+	'src/shared/config.lua',
+	'src/shared/init.lua',
+}
 
 server_scripts {
-	'src/Config.lua',
     "src/server/*.lua"
 }
 
@@ -21,4 +25,6 @@ dependencies {
     'community_bridge',
 }
 
-lua54 'yes'
+escrow_ignore {
+	'src/**/*.lua',     	-- Config files
+}

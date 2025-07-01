@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Bu öğeyi kullanmak için elinizde bir silah bulundurmalısınız",
+        "HasBeenApplied": "%s rengi %s silahınıza uygulandı",
+        "SerialRemoved": "Seri numarası törpülenmiş",
+        "SerialRemovedSuccess": "Seri numarası %s silahından başarıyla törpülenmiş"
+    }
+}

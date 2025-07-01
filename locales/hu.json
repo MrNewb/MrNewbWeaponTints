@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Ennek a tárgynak a használatához fegyvert kell tartanod a kezedben",
+        "HasBeenApplied": "A(z) %s színezés alkalmazva lett a(z) %s fegyveredre",
+        "SerialRemoved": "A sorozatszám le lett reszelve",
+        "SerialRemovedSuccess": "A sorozatszám sikeresen le lett reszelve a(z) %s fegyverről"
+    }
+}

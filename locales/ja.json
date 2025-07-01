@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "このアイテムを使用するには、手に武器を持っている必要があります",
+        "HasBeenApplied": "%s のティントが %s に適用されました",
+        "SerialRemoved": "シリアル番号が削られました",
+        "SerialRemovedSuccess": "%s からシリアル番号が正常に削られました"
+    }
+}

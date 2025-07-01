@@ -1,10 +1,8 @@
 {
     "WeaponTints": {
-        "NotInHand": "You need to have a weapon in your hand to use this item",
-        "HasBeenApplied": "has been applied to your weapon",
-        "SerialRemoved": "serial number has been filed off",
-        "MK2Detected": "MK2 weapon detected - applying special tint mapping",
-        "TintApplied": "Weapon tint successfully applied",
-        "FileUsed": "Heavy file has been used on the weapon"
+        "NotEquipped": "You need to have a weapon in your hand to use this item",
+        "HasBeenApplied": "The %s tint has been applied to your %s",
+        "SerialRemoved": "The serial number has been filed off",
+        "SerialRemovedSuccess": "The serial number has been successfully filed off the %s"
     }
 }

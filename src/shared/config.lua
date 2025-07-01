@@ -9,4 +9,6 @@
 --		  Need support? Join our Discord server for help: https://discord.gg/mrnewbscripts
 
 Config = {}
-Config.scratchedserial = 'The serial has been scratched off.'  -- Can place whatever you want here.
+-- This config isnt used but its here for branding. Look at that beautiful ascii art!
+-- You should probably join my discord, its where cool people hang out.
+-- I heard a rumor that if you arent in my discord you probably support bad taste in cheese.

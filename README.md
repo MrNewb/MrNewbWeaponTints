@@ -1,4 +1,5 @@
 # MrNewbWeaponTints
+See my docs at https://mrnewbs-scrips.gitbook.io/guide
 
 > **Professional FiveM Weapon Customization System** - Advanced weapon tints and serial number management for enhanced roleplay servers.
 

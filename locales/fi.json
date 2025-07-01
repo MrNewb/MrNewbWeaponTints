@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Sinulla täytyy olla ase kädessä käyttääksesi tätä esinettä",
+        "HasBeenApplied": "%s väri on levitetty %s:ään",
+        "SerialRemoved": "Sarjanumero on viillattu pois",
+        "SerialRemovedSuccess": "Sarjanumero on onnistuneesti viillattu pois %s:sta"
+    }
+}

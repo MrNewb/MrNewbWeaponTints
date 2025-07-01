@@ -1,10 +1,8 @@
 {
     "WeaponTints": {
-        "NotInHand": "Du musst eine Waffe in der Hand haben, um diesen Gegenstand zu verwenden",
-        "HasBeenApplied": "wurde auf deine Waffe angewendet",
-        "SerialRemoved": "die Seriennummer wurde abgefeilt",
-        "MK2Detected": "MK2-Waffe erkannt - spezielle Farbzuordnung wird angewendet",
-        "TintApplied": "Waffentönung erfolgreich angewendet",
-        "FileUsed": "Die schwere Feile wurde an der Waffe verwendet"
+        "NotEquipped": "Sie müssen eine Waffe in der Hand haben, um diesen Gegenstand zu verwenden",
+        "HasBeenApplied": "Die %s Färbung wurde auf Ihre %s angewendet",
+        "SerialRemoved": "Die Seriennummer wurde abgefeilt",
+        "SerialRemovedSuccess": "Die Seriennummer wurde erfolgreich von der %s abgefeilt"
     }
 }

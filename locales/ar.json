@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "تحتاج إلى حمل سلاح في يدك لاستخدام هذا العنصر",
+        "HasBeenApplied": "تم تطبيق اللون %s على %s الخاص بك",
+        "SerialRemoved": "تم برد الرقم التسلسلي",
+        "SerialRemovedSuccess": "تم برد الرقم التسلسلي بنجاح من %s"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Potřebujete mít zbraň v ruce, abyste mohli použít tento předmět",
+        "HasBeenApplied": "Odstín %s byl aplikován na vaši %s",
+        "SerialRemoved": "Výrobní číslo bylo odstraněno",
+        "SerialRemovedSuccess": "Výrobní číslo bylo úspěšně odstraněno z %s"
+    }
+}

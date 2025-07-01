@@ -1,10 +1,8 @@
 {
     "WeaponTints": {
-        "NotInHand": "Devi avere un'arma in mano per usare questo oggetto",
-        "HasBeenApplied": "è stato applicato alla tua arma",
-        "SerialRemoved": "il numero di serie è stato limato",
-        "MK2Detected": "Arma MK2 rilevata - applicazione mappatura speciale tinta",
-        "TintApplied": "Tinta dell'arma applicata con successo",
-        "FileUsed": "La lima pesante è stata usata sull'arma"
+        "NotEquipped": "Devi avere un'arma in mano per usare questo oggetto",
+        "HasBeenApplied": "La tinta %s è stata applicata alla tua %s",
+        "SerialRemoved": "Il numero di serie è stato limato",
+        "SerialRemovedSuccess": "Il numero di serie è stato limato con successo dalla %s"
     }
 }

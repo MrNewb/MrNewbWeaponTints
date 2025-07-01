@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "이 아이템을 사용하려면 손에 무기를 들고 있어야 합니다",
+        "HasBeenApplied": "%s 틴트가 %s에 적용되었습니다",
+        "SerialRemoved": "일련번호가 갈아내어졌습니다",
+        "SerialRemovedSuccess": "%s에서 일련번호가 성공적으로 갈아내어졌습니다"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "您需要手持武器才能使用此物品",
+        "HasBeenApplied": "%s 塗裝已應用到您的 %s",
+        "SerialRemoved": "序列號已被銼掉",
+        "SerialRemovedSuccess": "序列號已成功從 %s 上銼掉"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "WeaponTints": {
+        "NotEquipped": "Musisz mieć broń w ręku, aby użyć tego przedmiotu",
+        "HasBeenApplied": "Barwnik %s został zastosowany do twojej %s",
+        "SerialRemoved": "Numer seryjny został starty",
+        "SerialRemovedSuccess": "Numer seryjny został pomyślnie starty z %s"
+    }
+}
