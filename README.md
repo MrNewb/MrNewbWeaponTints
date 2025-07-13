@@ -170,7 +170,7 @@ Add the following items to your `ox_inventory/data/items.lua` file:
 This resource requires the following dependencies:
 
 - **[Ox Inventory](https://github.com/overextended/ox_inventory)** - For inventory management and weapon handling
-- **[Community Bridge](https://github.com/The-Order-Of-The-Sacred-Framework/community_bridge)** - For locales and notifications (replaces the old ox_lib dependency)
+- **[Community Bridge](https://github.com/TheOrderFivem/community_bridge/tree/main)** - For locales and notifications (replaces the old ox_lib dependency)
 - **Framework** - ESX, QBCore, Qbox, or QBX (auto-detected)
 
 ---
