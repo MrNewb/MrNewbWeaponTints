@@ -13,5 +13,5 @@ end
 
 AddEventHandler('onResourceStart', function(resource)
     if resource ~= GetCurrentResourceName() then return end
-    Bridge.Version.VersionChecker('MrNewbScripts/MrNewbWeaponTints', false)
+    Bridge.Version.AdvancedVersionChecker("MrNewb/patchnotes", resource)
 end)
