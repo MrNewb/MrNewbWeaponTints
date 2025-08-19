@@ -3,7 +3,7 @@ games { 'gta5' }
 lua54 'yes'
 name 'NewbTints'
 author 'MrNewb'
-version '0.1.0'
+version '0.1.1'
 description 'MrNewbs Weapon Tint System for Ox Inventory'
 
 shared_scripts {
