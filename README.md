@@ -152,14 +152,8 @@ Add the following items to your `ox_inventory/data/items.lua` file:
 ```
 
 ### 2. Resource Installation
-1. Download and extract the resource to your `resources` folder
-2. Add `ensure MrNewbWeaponTints` to your `server.cfg`
-3. Restart your server
-
-### 3. Configuration
-- Edit `config.lua` to customize settings
-- Configure Community Bridge integration
-- Set up localization preferences
+1. Follow the guide here https://mrnewbs-scrips.gitbook.io/guide to install the resource.
+2. Ensure all dependencies are installed and configured correctly.
 
 </details>
 
@@ -169,34 +163,10 @@ Add the following items to your `ox_inventory/data/items.lua` file:
 
 This resource requires the following dependencies:
 
-- **[Ox Inventory](https://github.com/overextended/ox_inventory)** - For inventory management and weapon handling
-- **[Community Bridge](https://github.com/TheOrderFivem/community_bridge/tree/main)** - For locales and notifications (replaces the old ox_lib dependency)
-- **Framework** - ESX, QBCore, Qbox, or QBX (auto-detected)
+- **[Ox Inventory](https://github.com/TheOrderFivem/ox_inventory)** - For inventory management and weapon handling
+- **[Community Bridge](https://github.com/MrNewb/community_bridge)** - For locales and notifications (replaces the old ox_lib dependency)
+- **Framework** - ESX, QBCore, or Qbox (auto-detected)
 
----
-
-## Documentation & Support
-
-### Resources
-- **[Complete Documentation](https://mrnewbs-scrips.gitbook.io/guide)** - Installation guides and troubleshooting
-- **[Community Bridge](https://github.com/The-Order-Of-The-Sacred-Framework/community_bridge)** - Enhanced compatibility framework
-- **[Video Tutorials](https://www.youtube.com/@mrnewb2819)** - Step-by-step installation guides
-
-### Community Support
-[![Discord](https://discordapp.com/api/guilds/1204398264812830720/widget.png?style=banner2)](https://discord.gg/mrnewbscripts)
-
-**Join our Discord community** for:
-- Support and troubleshooting
-- Feature requests and suggestions  
-- Community showcase and feedback
-- Direct developer communication
-
-### Special Thanks
-Special appreciation to **Decay Studios** for creating the professional inventory icons used in this release.
-
-[![Decay Studios](https://i.imgur.com/a6n1J4u.png)](https://discord.gg/yDXZwZPjdN)
-
----
 
 ## Important Notes
 
@@ -207,27 +177,29 @@ Special appreciation to **Decay Studios** for creating the professional inventor
 
 ---
 
-<details>
-<summary><strong>SEO Keywords & Search Optimization</strong></summary>
+## Requirements
 
-**FiveM Scripts:** FiveM scripts • FiveM resources • FiveM development • FiveM server scripts • Custom FiveM scripts • Professional FiveM scripts • FiveM script developer • FiveM lua scripts • Best FiveM scripts • Premium FiveM scripts • Free FiveM scripts • Quality FiveM scripts
+* Community Bridge
+* Compatible framework (ESX, QBCore, Qbox/QBX)
+* Ox Inventory
 
-**Weapon Customization:** FiveM weapon tints • Weapon customization FiveM • FiveM weapon skins • Weapon modification scripts • FiveM weapon colors • Custom weapon tints • Weapon visual enhancement • FiveM weapon system • Advanced weapon customization • Professional weapon tints
+## Support & Documentation
 
-**Framework Compatibility:** ESX scripts • QBCore scripts • Qbox scripts • QBX scripts • QB-Core resources • Multi-framework scripts • ESX resources • QBCore resources • Framework compatibility • Universal FiveM scripts • Cross-framework development • ESX QBCore Qbox compatibility
+- **[Tebex](https://mrnewbscripts.tebex.io/)**
+- **[Install guide](https://mrnewbs-scrips.gitbook.io/guide)**
+- **[Youtube](https://www.youtube.com/@mrnewb2819)**
+- **[GitHub Repository](https://github.com/MrNewb/MrNewbWeaponTints)**
 
-**Inventory Systems:** ox_inventory scripts • Ox Inventory integration • qb-inventory compatibility • es_extended inventory • Item-based systems • FiveM inventory • Usable items FiveM • Custom items • Item management scripts • Inventory enhancement
+### Community
+[![Discord](https://discordapp.com/api/guilds/1204398264812830720/widget.png?style=banner2)](https://discord.gg/mrnewbscripts)
 
-**Free Resources:** Free FiveM scripts • Open source FiveM • Community FiveM scripts • No escrow FiveM • Unencrypted scripts • Community resources • Free roleplay scripts • Open source roleplay • Community driven development
+**Join our Discord for support, feature requests, and community feedback.**
 
-**Serial Number System:** FiveM weapon serials • Serial number removal • Heavy file item • Weapon anonymization • Criminal roleplay tools • Weapon tracking system • Serial management FiveM
+---
 
-**Technical Keywords:** Lua programming • Lua scripting • JavaScript FiveM • FiveM NUI • Client-server optimization • Performance optimization • Database integration • Modern FiveM development • Community Bridge • Localization support
+### Special Thanks
+Special appreciation to **Decay Studios** for creating the inventory icons used in this release.
 
-**Roleplay Enhancement:** GTA V roleplay • GTA RP scripts • Roleplay server scripts • RP server resources • Immersive roleplay • Professional roleplay scripts • Roleplay enhancement tools • Criminal roleplay • Police roleplay
-
-**Search Tags:** `fivem-scripts` `weapon-tints` `weapon-customization` `ox-inventory` `esx-scripts` `qbcore-scripts` `qbox-scripts` `qbx-scripts` `free-fivem` `lua-programming` `gta5-roleplay` `roleplay-scripts` `community-bridge` `serial-removal` `weapon-enhancement` `fivem-resources` `open-source` `multi-framework` `professional-scripts` `quality-fivem` `free` `ox_inventory` `qbox` `qbx` `qb-core` `qbcore` `fivem` `script` `lua` `mrnewb` `community_bridge` `tints`
-
-</details>
+[![Decay Studios](https://discord.gg/yDXZwZPjdN)
 
 ---
