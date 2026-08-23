@@ -1,30 +1,34 @@
 fx_version 'cerulean'
-games { 'gta5' }
+game 'gta5'
 lua54 'yes'
-name 'NewbTints'
+
+name 'MrNewbWeaponTints'
 author 'MrNewb'
-version '0.2.0'
-description 'MrNewbs Weapon Tint System for Ox Inventory'
+description 'ox_inventory weapon tint and serial filing items'
+version '1.0.0'
 
 shared_scripts {
-	'data/config.lua',
-	'core/init.lua',
+    '@ox_lib/init.lua',
+    '@Newb_Bridge/import.lua',
 }
 
 server_scripts {
-	'modules/**/server/*.lua',
+    'resource/server/weapon_items.lua',
 }
 
 files {
-	'locales/*.json',
+    'locales/*.json',
 }
 
 dependencies {
     '/server:6116',
     '/onesync',
-    'community_bridge',
+    'ox_lib',
+    'ox_inventory',
+    'Newb_Bridge',
 }
 
 escrow_ignore {
-	'**/*.lua',     	-- Config files
+    'locales/*.json',
+    'resource/**/*.lua',
 }
