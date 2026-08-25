@@ -1,8 +1,8 @@
 {
     "WeaponTints": {
-        "NotEquipped": "You need to have a weapon in your hand to use this item",
-        "HasBeenApplied": "The %s tint has been applied to your %s",
-        "SerialRemoved": "The serial number has been filed off",
-        "SerialRemovedSuccess": "The serial number has been successfully filed off the %s"
+        "NotEquipped": "Pull a weapon out first.",
+        "HasBeenApplied": "Put the %s tint on your %s.",
+        "SerialRemoved": "Serial filed off",
+        "SerialRemovedSuccess": "Filed the serial off the %s."
     }
 }
