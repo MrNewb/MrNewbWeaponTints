@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbWeaponTints'
 author 'MrNewb'
 description 'ox_inventory weapon tint and serial filing items'
-version '1.0.2'
+version '1.0.3'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -29,6 +29,5 @@ dependencies {
 }
 
 escrow_ignore {
-    'locales/*.json',
-    'resource/**/*.lua',
+    '**/*',
 }
