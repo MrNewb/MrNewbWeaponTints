@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbWeaponTints'
 author 'MrNewb'
 description 'ox_inventory weapon tint and serial filing items'
-version '1.0.1'
+version '1.0.2'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -13,7 +13,7 @@ shared_scripts {
 }
 
 server_scripts {
-    'resource/server/weapon_items.lua',
+    'resource/modules/tints/server/weapon_items.lua',
 }
 
 files {

@@ -42,6 +42,6 @@ exports('newbserialfile', function(event, item, inventory)
 end)
 
 AddEventHandler('onResourceStart', function(resourceName)
-    if GetCurrentResourceName() ~= resourceName then return end
+    if cache.resource ~= resourceName then return end
     exports[bridge.name]:VersionCheck('MrNewb/patchnotes', resourceName)
 end)

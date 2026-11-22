@@ -6,6 +6,8 @@ These items **do** use ox_inventory `server.export`. That is the exception to th
 
 [Documentation](https://mrnewb.github.io/docs/mrnewbweapontints) · [Install guide](https://mrnewb.github.io/docs/mrnewbweapontints/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts)
 
+Documentation is available at https://mrnewb.github.io/docs/
+
 <p>
   <img src="%5BINSTALL%5D/images/greentint.png" alt="green tint" width="72" />
   <img src="%5BINSTALL%5D/images/goldtint.png" alt="gold tint" width="72" />
