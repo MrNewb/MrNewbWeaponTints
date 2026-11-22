@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbWeaponTints'
 author 'MrNewb'
 description 'ox_inventory weapon tint and serial filing items'
-version '1.0.3'
+version '1.0.4'
 
 shared_scripts {
     '@ox_lib/init.lua',
