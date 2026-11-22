@@ -1,10 +1,14 @@
 # MrNewbWeaponTints
 
+![MrNewbWeaponTints](.github/assets/banner.webp)
+
 ox_inventory tint kits plus a heavy file that strips weapon serials.
 
 These items **do** use ox_inventory `server.export`. That is the exception to the usual MrNewb item rule. ox_inventory only.
 
-[Documentation](https://mrnewb.github.io/docs/mrnewbweapontints) · [Install guide](https://mrnewb.github.io/docs/mrnewbweapontints/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts)
+[Documentation](https://mrnewb.github.io/docs/mrnewbweapontints) · [Install guide](https://mrnewb.github.io/docs/mrnewbweapontints/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts) · [Short](https://www.youtube.com/shorts/5UcYzoiPqnA)
+
+<a href="https://www.youtube.com/shorts/5UcYzoiPqnA"><img src=".github/assets/short.webp" alt="MrNewbWeaponTints on YouTube Shorts" width="200"></a>
 
 Documentation is available at https://mrnewb.github.io/docs/
 
